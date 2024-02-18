@@ -1,0 +1,74 @@
+.header{
+    background-color: #FFD0EC;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:225px;
+    position:relative;
+}
+
+.firstH1{
+    color: #8284FA;
+    font-size: 45px;
+}
+
+.secondH1{
+    color: #4EA8DE;
+    font-size: 45px;
+}
+
+/* .barriecito-regular {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+.newTaskForm{
+    position: absolute;
+    height: 50px;
+    bottom: -27px;
+    width: 100%;
+    max-width: 736px;
+    display: flex;
+    gap: 8px;
+    padding: 0 1rem;
+}
+
+.newTaskForm input {
+    height: 100%;
+    flex: 1;
+    color: rgb(197, 197, 250);
+    background: #1F2544;
+    border: 1px solid #0D0D0D;
+    border-radius: 8px;
+    padding: 0 16px;
+    font-size: 20px;
+  }
+
+.newTaskForm input::placeholder {
+    color: #808080;
+}
+
+.newTaskForm button {
+    height: 100%;
+    padding: 0 16px;
+    background: #AC87C5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    
+  }
+
+.newTaskForm button:hover{
+   background: #785d8b;
+}  
+
+.newTaskForm button:disabled{
+    background: #7e7286;
+    cursor: not-allowed;
+}
