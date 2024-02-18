@@ -4,10 +4,10 @@ ChoreCheck is a simple and efficient to-do app built using React and Vite. It of
 
 ## Features
 
-- **Add New Tasks**: Quickly add new tasks using the input field and the "Add" button.
-- **Edit Tasks**: Easily edit the text of any task by clicking on the edit button.
+- **Add New Tasks**: Quickly add new tasks using the input field and the "Submit" button.
+- **Edit Tasks**: Easily edit the text of any task by clicking on the edit icon.
 - **Mark as Complete**: Keep track of your completed tasks by marking them as complete with a simple click.
-- **Delete Tasks**: Remove unwanted tasks from your list by clicking on the delete button.
+- **Delete Tasks**: Remove unwanted tasks from your list by clicking on the delete icon.
 
 ## Tech Stack
 
